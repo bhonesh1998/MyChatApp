@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "634319602245",
+    "firebase_url": "https://e-class-9c419.firebaseio.com",
+    "project_id": "e-class-9c419",
+    "storage_bucket": "e-class-9c419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634319602245:android:027e92b55452d088",
+        "android_client_info": {
+          "package_name": "com.example.bhonesh.e_class"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634319602245-3mec1pm81qbtg5icfm0pt1as29i0c4m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyUvIrgjUrOoO3sgH5yp0rOs_Pgw8MJN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

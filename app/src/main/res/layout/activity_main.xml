@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhonesh.e_class.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignLeft="@+id/editemail"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editemail"
+        android:layout_marginTop="48dp"
+        android:text="Email"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/editemail"
+        android:layout_alignStart="@+id/editemail"
+        android:layout_below="@+id/editemail"
+        android:layout_marginTop="36dp"
+        android:text="Password"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:ems="12"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:ems="12"
+        android:inputType="textPassword" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editemail"
+        android:layout_alignStart="@+id/editemail"
+        android:layout_below="@+id/editpass"
+        android:layout_marginTop="36dp"
+        android:text="ID"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:ems="12"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editid"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Sign in"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Create an account"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
